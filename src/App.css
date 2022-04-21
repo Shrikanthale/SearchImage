@@ -1,0 +1,41 @@
+body{
+  background: black;
+}
+
+.gifs{
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gif{
+  padding: 0 2px;
+}
+
+.loader{
+  color: blue;
+}
+
+.form{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px auto;
+  width: 50%;
+}
+
+.form-control{
+  width: 80%;
+  height: 5vh;
+  border-radius: 5px;
+}
+
+.btn{
+  background-color: rgb(50, 127, 244);
+  color: wheat;
+  padding: 10px 30px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
